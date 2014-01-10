@@ -10,6 +10,7 @@
     'website': 'http://www.openerp-experts.com',
     'depends': [
         'base',
+        'document',
     ],
     'data': [
         'admin_doc.xml',
