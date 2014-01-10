@@ -10,9 +10,9 @@
     'website': 'http://www.openerp-experts.com',
     'depends': [
         'base',
-        'ir_attachment',
     ],
     'data': [
+        'admin_doc.xml',
     ],
     'test': [
     ],
