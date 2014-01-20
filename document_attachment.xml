@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <!-- Views related to the document_attachment_type model. -->
+
+        <record id="document_attachment_type_tree_view" model="ir.ui.view">
+            <field name="name">document_attachment_type_tree_view</field>
+            <field name="model">document_attachment.type</field>
+            <field name="arch" type="xml">
+
+                <tree string="Document types" version="7.0">
+                    <field name="name" />
+                </tree>
+
+            </field>
+        </record>
+
+        <record id="document_attachment_type_form_view" model="ir.ui.view">
+            <field name="name">document_attachment_type_form_view</field>
+            <field name="model">document_attachment.type</field>
+            <field name="arch" type="xml">
+
+                <form string="Document types" version="7.0">
+                    <group cols="2">
+                        <field name="name" />
+                    </group>
+                </form>
+
+            </field>
+        </record>
+
+        <!-- Views related to the document_attachment model. -->
+
+        <record id="document_attachment_tree_view" model="ir.ui.view">
+            <field name="name">document_attachment_tree_view</field>
+            <field name="model">document_attachment</field>
+            <field name="arch" type="xml">
+
+                <tree string="Documents" version="7.0">
+
+                    <field name="type_id" />
+
+                    <!-- Inherited from ir.attachment. -->
+
+                    <field name="datas" filename="datas_fname" />
+                    <field name="datas_fname" invisible="1"
+                        class="oe_inline oe_right" />
+
+                </tree>
+
+            </field>
+        </record>
+
+        <record id="document_attachment_form_view" model="ir.ui.view">
+            <field name="name">document_attachment_form_view</field>
+            <field name="model">document_attachment</field>
+            <!-- <field name="inherit_id" ref="base.view_attachment_form" /> -->
+            <field name="arch" type="xml">
+
+                <form string="Documents" version="7.0">
+                    <group cols="2">
+
+                        <field name="type_id"
+                            domain="[('model', '=', context.get('res_model'))]" />
+
+                        <!-- Inherited from ir.attachment. -->
+
+                        <field name="datas" filename="datas_fname" />
+                        <field name="datas_fname" invisible="1"
+                            class="oe_inline oe_right" />
+
+                    </group>
+                </form>
+
+            </field>
+        </record>
+
+    </data>
+</openerp>

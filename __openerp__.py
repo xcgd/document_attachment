@@ -13,7 +13,7 @@
         'document',
     ],
     'data': [
-        'admin_doc.xml',
+        'document_attachment.xml',
     ],
     'test': [
     ],
