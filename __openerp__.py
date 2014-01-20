@@ -4,8 +4,11 @@
     'version': '0.1',
     'author': 'XCG Consulting',
     'category': 'Document',
-    'description': """ enchancements to the ir.attachment module
-    to provide admin docs
+    'description': """Enchancements to the ir.attachment module
+    to manage kinds of attachments that can be linked with OpenERP objects.  
+    The implenter has to:  
+    - Pass 'res_model' and 'res_id' in the context.  
+    - Define menus and actions should it want to allow changing document types.  
     """,
     'website': 'http://www.openerp-experts.com',
     'depends': [
