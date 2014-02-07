@@ -17,6 +17,7 @@ The implenter has to:
         'document',
     ],
     'data': [
+        'security/ir.model.access.csv',
         'document_attachment.xml',
     ],
     'test': [
