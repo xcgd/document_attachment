@@ -43,9 +43,7 @@
 
                     <!-- Inherited from ir.attachment. -->
 
-                    <field name="datas" filename="datas_fname" />
-                    <field name="datas_fname" invisible="1"
-                        class="oe_inline oe_right" />
+                    <field name="datas_fname" />
 
                 </tree>
 
