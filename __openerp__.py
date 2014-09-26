@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Document Attachment',
-    'version': '1.1.3',
+    'version': '1.2',
     'author': 'XCG Consulting',
     'category': 'Dependency',
     'description': """Enchancements to the ir.attachment module
