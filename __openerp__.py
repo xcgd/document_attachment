@@ -15,7 +15,7 @@ Document attachments are displayed in a many2many field; it can optionally be
 changed to work like a one2many field by using the
 "domain="[('res_id', '=', id)]" attribute.
     """,
-    'website': 'http://www.openerp-experts.com',
+    'website': 'www.odoo.consulting/',
     'depends': [
         'base',
         'document',
