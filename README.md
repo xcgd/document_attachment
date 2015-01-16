@@ -15,10 +15,8 @@ scope of human resources, accounting, stock ... Odoo also can store
 scanned documents such as bank details , the identity documents , or other evidence ...
 
 Define menus and actions should you want to allow changing document types:
+For Example, you can attached a new document to an employee.
 
-  - For Example, you can attached a new document to an employee:
-
-  - Create type of document
   
 ![Create](static/src/img/creerdocument.png)
   
