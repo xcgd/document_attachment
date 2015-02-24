@@ -1,5 +1,10 @@
+next
+====
+
+* Looser default security rules (it's up to implementers to make them more strict).
+
+
 1.2
+===
 
-Production release
-
-
+* Production release.
