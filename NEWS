@@ -1,7 +1,7 @@
 next
 ====
 
-* Looser default security rules (it's up to implementers to make them more strict).
+* Better default security rules (it's up to implementers to enlarge them as needed).
 
 
 1.2
