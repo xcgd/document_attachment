@@ -20,7 +20,7 @@
 ##############################################################################
 {
     'name': 'Document Attachment',
-    'version': '1.2',
+    'version': '1.3',
     'author': 'XCG Consulting',
     'category': 'Hidden/Dependency',
     'description': """Enchancements to the ir.attachment module
