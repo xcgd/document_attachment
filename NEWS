@@ -1,5 +1,5 @@
-next
-====
+1.3
+===
 
 * Better default security rules (it's up to implementers to enlarge them as needed).
 
